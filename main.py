@@ -6,6 +6,7 @@ load_dotenv()
 client = genai.Client()
 import time
 
+
 st.set_page_config(page_title="AI Travel Assistant", page_icon="✈️", layout="centered")
 
 TITLE = "AI Travel Assistant"
